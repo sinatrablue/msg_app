@@ -1,0 +1,17 @@
+**Create a new Git repo for the project, different from the Java one. Delete and clone again.
+
+Read about makefiles with Java, because the compilation of JavaFX projects will be horrible :
+	~> first 'export PATH_TO_FX=path/to/javafx_version_XXX/lib'
+	~> then 'javac --module-path $PATH_TO_FX --add-modules javafx.constrols Hello.java'
+---> TOO FCKING LONG
+
+**Read about the packages and maybe a different way to compile them ---> DONE
+	~> compile with 'java pkg_name.Script'
+
+**Server not working cause main class Server is not found
+    --> probably a classical error, find out the problem ---> DONE
+    --> maybe coming from the 'package' line at the beginning ---> YES
+
+**Client not working because the 'out' variable has a problem
+    --> no pblm in Server whereas it's the same thing ---> YES
+    --> correct in last, maybe making Server work will help to figure out ---> YES
