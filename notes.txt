@@ -1,10 +1,16 @@
-**Install JavaFX ---> DONE, files are in PATH=/Users/sinatrablue/Documents/javafx-sdk-15/lib
 
-Read about makefiles with Java, because the compilation of JavaFX projects will be horrible :
+
+THE CODE WORKS WITH SHELL SCRIPT
+
+Run the code via Maven, a pom.xml file has to be written, then use 'mvn clean javafx:run'
+
+**Read about makefiles with Java, because the compilation of JavaFX projects will be horrible :
 	~> first 'export PATH_TO_FX=path/to/javafx_version_XXX/lib'
 	~> then 'javac --module-path $PATH_TO_FX --add-modules javafx.constrols Hello.java'
     ---> TOO FCKING LONG
 ->> Wrote a shell script that does it for the moment.
+
+**Install JavaFX ---> DONE, files are in PATH=/Users/sinatrablue/Documents/javafx-sdk-15/lib
 
 **Create a new Git repo for the project, different from the Java one. Delete and clone again.
 

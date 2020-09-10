@@ -15,3 +15,4 @@ echo "Compilation terminated."
 echo "..."
 echo "Now executing the app ..."
 java --module-path $PATH_TO_FX --add-modules javafx.controls test_fx
+echo "App terminated."
