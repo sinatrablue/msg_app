@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 public class test_fx { 
      
     public class HelloWorld extends Application {
-        public static void main(String[] args) {
+        public static void main(String[] args) {    // Problem with 'static' -> can't compile with it, can compile but can't run the app without
             launch(args);
         }
         
